@@ -1,0 +1,21 @@
+# Program to find the multiplication and division of two numbers
+
+# Ask the user for input
+num1 = float(input("Enter the first number = "))
+num2 = float(input("Enter the second number = "))
+
+# Perform multiplication
+multiplication = num1 * num2
+
+# Display the results
+print("The product of the two numbers is = ", multiplication)
+
+# Perform division
+# Avoiding division by zero, add condition
+if num2 !=0:
+	division = num1/num2
+else:
+ 	division = "(cannot divide by zero)"
+
+# Display the results
+print("The division of the two numbers is = ", division)
